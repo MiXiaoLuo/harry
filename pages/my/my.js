@@ -1,4 +1,5 @@
 // pages/my/my.js
+var app = getApp();
 Page({
 
   /**
@@ -27,6 +28,7 @@ Page({
           iv:res.iv,
           signature:res.signature,
           rawData:res.rawData,
+          encryptedData: res.encryptedData
         })
         //获取用户地理位置
         wx.getLocation({
@@ -41,7 +43,6 @@ Page({
                 ti.setData({
                   code: res.code
                 })
-                console.log(ti.data.code)
                 //发送请求给后台
                 wx.request({
                   url: 'https://buke.weiyuanna.com/api/login',
@@ -55,10 +56,10 @@ Page({
                     code:ti.data.code
                   },
                   header: {
-                    'content-type': 'application/json' // 默认值
+                    'content-type': 'application/x-www-form-urlencoded' // 默认值
                   },
                   success(res) {
-                    console.log(res)
+                    app.user = res.data.data.signature;
                   }
                 })
               }
@@ -68,7 +69,18 @@ Page({
       }
     })
   },
-
+  //我的关注
+  focus:function(){
+    wx:wx.navigateTo({
+      url: '../focus/focus'
+    })
+  },
+  //我的收藏
+  collection:function(){
+    wx:wx.navigateTo({
+      url: '../collection/collection'
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

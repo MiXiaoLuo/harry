@@ -2,13 +2,15 @@
 .content{
   width: 100%;
   height: 140rpx;
+  border-bottom: 2rpx #ececec solid;
+  padding: 20rpx 0;
 }
 /*内容新闻左侧*/
 .content-left{
-  width: 590rpx;
-  height: 140rpx;
+  width: 550rpx;
+  height: 110rpx;
   float: left;
-  padding: 10rpx;
+  padding: 10rpx 15rpx;
 }
 .con{
   font-size: 24rpx;
@@ -20,6 +22,7 @@
   color: #868181;
   display: block;
   float: left;
+  line-height: 40rpx;
 }
 .hot{
   width: 80rpx;
@@ -31,26 +34,29 @@
   height: 26rpx;
   display: block;
   float: left;
+  padding: 6rpx 4rpx 6rpx 0;
 }
 .hot text{
   float: left;
   font-size: 20rpx;
   color: #868181;
+  line-height: 40rpx;
 }
 .con-bottom{
-  width: 590rpx;
+  width: 550rpx;
   height: 40rpx;
   padding-top: 30rpx;
 }
 /*内容新闻右侧*/
 .content-right{
-  width: 140rpx;
+  width: 170rpx;
   height: 136rpx;
   float: left;
 }
 .content-right image{
   width: 136rpx;
   height: 136rpx;
+  padding: 0 17rpx;
 }
 /*聊天按钮*/
 .in{

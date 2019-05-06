@@ -3,9 +3,9 @@
   <image src='{{image}}'></image>
   <text>{{login}}</text>
 </button>
-<view class='my'>
+<view class='my' bindtap='focus'>
   <text>我的关注</text>
 </view>
-<view class='my'>
+<view class='my' bindtap='collection'>
   <text>我的收藏</text>
 </view>
