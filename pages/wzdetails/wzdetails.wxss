@@ -1,0 +1,35 @@
+/* pages/wzdetails/wzdetails.wxss */
+.top{
+ padding: 0 10rpx;
+}
+.top .title{
+  font-size: 30rpx;
+}
+.shoucang .icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.shoucang{
+  float: right;
+}
+.shoucang text{
+  color: #aaa;
+  font-size: 24rpx;
+}
+.zuozhe{
+
+}
+.zuozhe .icon{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.zuozhe text{
+  color: #aaa;
+  font-size: 26rpx;
+}
+.zuozhe .guanzhu{
+  color: #42a441;
+  font-size: 26rpx;
+  
+}

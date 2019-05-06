@@ -1,0 +1,24 @@
+<!--pages/wzdetails/wzdetails.wxml-->
+<view class='top'>
+  <view class='title'>搞定场景，小程序就赢一半了！搞定场景，小程序就赢一半了！</view>
+  <view class='shoucang'>
+    <image class='icon'></image>
+    <text>收藏</text>
+  </view>
+  <view class='zuozhe'>
+    <image class='icon'></image>
+    <text>作者</text>
+    <text class='guanzhu'>关注作者</text>
+  </view>
+</view>
+
+<view class='a-content'>
+ 文章内容
+</view>
+
+<view class='footer'>
+  <view class='item'>
+   <image></image>
+   <view ></view>
+  </view>
+</view>

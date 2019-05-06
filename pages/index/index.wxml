@@ -1,0 +1,23 @@
+<!--index.wxml-->
+  <view class='content' bindtap='list'>
+    <view class='content-left'>
+      <text class='con'>搞定场景，小程序就赢一半了！搞定场景，小程序就赢一半了！</text>
+      <view class='con-bottom'>
+        <text class='text'>职场 热点</text>
+        <view class='hot'>
+          <image src='../../img/comments.png'></image>
+          <text>12</text>
+        </view>
+        <view class='hot'>
+          <image src='../../img/eye.png'></image>
+          <text>32</text>
+        </view>
+      </view>
+    </view>
+    <view class='content-right'>
+      <image src='../../img/img01.png'></image>
+    </view>
+  </view> 
+  <view class='in' bindtap='into'>
+    <image src='../../img/in.png'></image>
+  </view>

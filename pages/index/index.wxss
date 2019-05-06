@@ -1,0 +1,70 @@
+/**index.wxss**/
+.content{
+  width: 100%;
+  height: 140rpx;
+}
+/*内容新闻左侧*/
+.content-left{
+  width: 590rpx;
+  height: 140rpx;
+  float: left;
+  padding: 10rpx;
+}
+.con{
+  font-size: 24rpx;
+  color: #101010;
+  display: block;
+}
+.text{
+  font-size: 24rpx;
+  color: #868181;
+  display: block;
+  float: left;
+}
+.hot{
+  width: 80rpx;
+  height: 40rpx;
+  float: right;
+}
+.hot image{
+  width: 26rpx;
+  height: 26rpx;
+  display: block;
+  float: left;
+}
+.hot text{
+  float: left;
+  font-size: 20rpx;
+  color: #868181;
+}
+.con-bottom{
+  width: 590rpx;
+  height: 40rpx;
+  padding-top: 30rpx;
+}
+/*内容新闻右侧*/
+.content-right{
+  width: 140rpx;
+  height: 136rpx;
+  float: left;
+}
+.content-right image{
+  width: 136rpx;
+  height: 136rpx;
+}
+/*聊天按钮*/
+.in{
+  width: 140rpx;
+  height: 140rpx;
+  background: #FBFBFB;
+  border-radius: 70rpx;
+  position: fixed;
+  right: 76rpx;
+  bottom: 132rpx;
+}
+.in image{
+  width: 80rpx;
+  height: 80rpx;
+  display: block;
+  margin: 30rpx;
+}
