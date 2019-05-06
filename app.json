@@ -1,10 +1,11 @@
 {
   "pages": [
+    "pages/my/my",
     "pages/index/index",
     "pages/wzdetails/wzdetails",
-    "pages/my/my",
     "pages/chat/chat",
-    "pages/logs/logs"
+    "pages/focus/focus",
+    "pages/collection/collection"
   ],
   "window": {
     "backgroundTextStyle": "light",
